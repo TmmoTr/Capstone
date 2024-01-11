@@ -130,6 +130,7 @@ header nav .navbar-brand{
     border-radius: 50%;
     text-align: center;
     margin-right: 15px;
+    margin-top: 6px;
 }
 .dark .search-icon{
     background-color: #191c1d;
