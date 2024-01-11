@@ -342,3 +342,30 @@ header nav .navbar-brand{
     visibility: visible;
     opacity: 0.7;
 } */
+
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        background: white;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+}
+    .dark .navbar-nav {
+        background: #131617;
+        color: #eee;
+    }
+
+    .switch-button{
+        position: absolute;
+        top: 21px;
+        right: 70px;
+    }
+}
+.navbar-toggler-icon {
+    background-color: rgb(220, 79, 114);
+    color: white;
+    
+}
+.navbar-toggler-icon i{
+    line-height: 30px;
+}
