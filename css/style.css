@@ -180,7 +180,7 @@ header nav .navbar-brand{
 }
 /* service */
 .service .title{
-    width: 750px;
+    max-width: 750px;
     margin: auto
 }
 
@@ -401,12 +401,13 @@ header nav .navbar-brand{
     color: #eee;
 }
 @media screen and (max-width: 991px) {
+
     .navbar-nav {
         background: white;
         text-align: center;
         flex-direction: column;
         align-items: center;
-}
+    }
     .dark .navbar-nav {
         background: #131617;
         color: #eee;
@@ -426,3 +427,10 @@ header nav .navbar-brand{
 .navbar-toggler-icon i{
     line-height: 30px;
 }
+
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 100%;
+    }
+}
+
