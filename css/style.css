@@ -70,7 +70,7 @@ a:hover{
   
   /* Dark Theme*/
   .dark#myBody{
-    transition: all 0.4s ease 0s;
+    transition: all 0.3s ease 0s;
   }
   .dark #switchButton {
     background-color: rgb(19 22 23);
@@ -90,7 +90,7 @@ header{
     height: 90px;
     display: grid;
     align-items: center;
-    transition: all 0.4s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 header nav .navbar-brand{
@@ -103,6 +103,7 @@ header nav .navbar-brand{
     padding: 14px 0;
     font-size: 16px;
     font-weight: 400;
+    color: #131617;
 }
 
 .navbar-expand-lg .navbar-nav .nav-item {
@@ -166,7 +167,7 @@ header nav .navbar-brand{
     background-attachment: fixed;
     background-position: center;
     padding-top: 80px;
-    transition: all 0.4s ease 0s;
+    transition: 0.3s ease;
 }
 .dark.carousel{
     background-image:linear-gradient(to right, #131617, rgba(255, 255, 255, 0.92)), url(../img/banner.jpg);
@@ -218,7 +219,7 @@ header nav .navbar-brand{
 .about{
     background-color: rgb(247 249 252);
     padding-top: 48px;
-    transition: all 0.4s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 .dark#about{
     background-color: #191c1d;
@@ -324,26 +325,81 @@ header nav .navbar-brand{
     background-color : rgb(19 22 23);
     color: white
 }
-/* b2t
-.b2t{
-    color: white;
-    width: 50px;
-    height: 45px;
-    line-height: 45px;
-    background: rgb(220, 79, 114);
-    text-align: center;
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    transition: 0.3s;
-    opacity: 0;
+
+.dark .section6 .w3l-faq ul li {
+    background: #131617;
+    border: 1px solid #333;
 }
 
-.cd-top--is-visible {
-    visibility: visible;
-    opacity: 0.7;
-} */
+.dark .section6 .w3l-faq h2 {
+    color: #eee;
+}
+.dark .section6 .w3l-faq p {
+    color: #b7b7b7;
+}
 
+.dark .resp-tabs-container {
+    background-color: #131617;
+}
+
+.dark .section7 .products-content h3 {
+    color: #eee;
+}
+.dark .section7 .products-content p {
+    color: #b7b7b7;
+}
+.dark#products .resp-tabs-list li {
+    background-color: #131617;
+    color:#eee
+}
+
+.dark .testimonials {
+    background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)), url(../img/b2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.dark .section8 .slider-info {
+    background-color: #131617;
+}
+.dark .section8 .message p{
+    color: #eee;
+}
+.dark .section8 .message .name p{
+    color: #b7b7b7;
+}
+.dark .w3l-footer .w3l-footer-16-main.py-5 {
+    background-color: #191c1d ;
+}
+.dark .w3l-footer .w3l-footer-16-main h3 {
+    color: #eee;
+}
+
+.dark .w3l-footer .end-column {
+    background-color: #131617;
+}
+.dark .w3l-footer .w3l-footer-16-main h4 {
+    color: #eee;
+}
+
+.dark .w3l-footer .subscribe input[type="email"] {
+    background: #191c1d;
+    color: #eee;
+}
+.dark .w3l-footer .w3l-footer-16-main p {
+    color: #b7b7b7
+}
+
+.dark .w3l-footer .below-section {
+    border-top: 1px solid #333;
+}
+.dark .w3l-footer .w3l-footer-16-main p a {
+    color: #eee;
+}
+.dark .w3l-footer ul.social li a {
+    color: #eee;
+}
 @media screen and (max-width: 991px) {
     .navbar-nav {
         background: white;
