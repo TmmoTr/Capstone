@@ -680,7 +680,7 @@ p {
 
 .testimonials {
     background: linear-gradient(to right, var(--bg-color), rgba(255, 255, 255, 0.77)),
-    url(../img/b2.jpg);
+    url(./img/b2.jpg);
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
