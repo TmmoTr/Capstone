@@ -434,11 +434,3 @@ header nav .navbar-brand{
     }
 
 }
-
-@media screen and (max-width: 1024px){
-    .container-nav {
-        max-width: 100% !important;
-    }
-}
-
-
