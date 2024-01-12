@@ -430,7 +430,7 @@ header nav .navbar-brand{
 
 @media screen and (min-width: 992px){
     .container{
-        max-width: 992px;
+        min-width: 992px;
     }
 }
 
