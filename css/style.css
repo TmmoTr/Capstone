@@ -428,8 +428,9 @@ header nav .navbar-brand{
     line-height: 30px;
 }
 
-@media (min-width: 992px){
-    #header .container, .container-lg, .container-md, .container-sm {
+@media (min-width: 992px) {
+    .container {
         max-width: 990px;
-}}
+    }
+}
 
