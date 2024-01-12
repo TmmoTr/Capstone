@@ -430,6 +430,6 @@ header nav .navbar-brand{
 
 @media (min-width: 992px)
 .container, .container-lg, .container-md, .container-sm {
-    max-width: 990px;
+    min-width: 990px;
 }
 
